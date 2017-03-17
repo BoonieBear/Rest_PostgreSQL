@@ -1,4 +1,4 @@
-package logrunner
+package toy
 
 import (
 	"fmt"
@@ -11,7 +11,6 @@ import (
 )
 
 func roundTime(t time.Time, interval time.Duration) time.Time {
-
 	roundedMinutes := int(interval / (1 * time.Minute))
 	if roundedMinutes < 60 {
 		//Round to minutes e.g. 5min, 30 mins etc.

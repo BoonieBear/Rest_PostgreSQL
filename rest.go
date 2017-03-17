@@ -1,5 +1,0 @@
-package rest
-
-import (
-	"log"
-)
